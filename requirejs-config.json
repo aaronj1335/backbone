@@ -1,0 +1,11 @@
+{
+    "paths": {
+        ".":  "./backbone"
+    },
+    "shim": {
+        ".": {
+            "exports": "Backbone",
+            "deps": ["underscore"]
+        }
+    }
+}
